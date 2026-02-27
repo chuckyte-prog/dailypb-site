@@ -1,17 +1,14 @@
-/* Hero Banner */
+/* Hero Banner — direct child of <main>, naturally full-width */
 .hero {
   background: linear-gradient(135deg, #223960 0%, #1a2d4f 60%, #0f1d35 100%);
   padding: 64px 24px 72px;
-  position: relative;
-  overflow: hidden;
+  margin-top: 0;
 }
 
 .heroInner {
   max-width: 720px;
   margin: 0 auto;
   text-align: center;
-  position: relative;
-  z-index: 1;
 }
 
 .heroTitle {
@@ -31,9 +28,10 @@
   font-weight: 400;
 }
 
-/* Content wrapper for consistent top padding */
-.contentWrapper {
-  padding-top: 32px;
+/* Content area below hero */
+.contentContainer {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /* Responsive */

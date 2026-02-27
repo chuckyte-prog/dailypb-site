@@ -162,24 +162,32 @@ body.help-center-home-active .theme-doc-breadcrumbs {
 
 /* ── BLOG STYLING ─────────────────────────────────────────────────────── */
 
-/* Blog post cards — target actual article class names */
-article.margin-bottom--xl {
-  border-left: 4px solid var(--dailypb-blue);
-  background: #ffffff;
-  border-radius: 8px;
-  padding: 28px;
-  box-shadow: 0 2px 8px rgba(34, 57, 96, 0.08);
+/* Ensure the blog list hero has no top gap */
+.blog-list-page .theme-layout-main > *:first-child,
+.blog-wrapper .theme-layout-main > *:first-child {
+  margin-top: 0 !important;
+}
+
+/* Blog post cards */
+.blog-wrapper article.margin-bottom--xl,
+main article.margin-bottom--xl {
+  border-left: 4px solid var(--dailypb-blue) !important;
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  padding: 28px !important;
+  box-shadow: 0 2px 8px rgba(34, 57, 96, 0.08) !important;
   transition: box-shadow 0.2s, transform 0.2s;
 }
 
-article.margin-bottom--xl:hover {
-  box-shadow: 0 4px 16px rgba(34, 57, 96, 0.12);
+.blog-wrapper article.margin-bottom--xl:hover,
+main article.margin-bottom--xl:hover {
+  box-shadow: 0 4px 16px rgba(34, 57, 96, 0.12) !important;
   transform: translateY(-2px);
 }
 
 /* Post title styling */
-article.margin-bottom--xl h2,
-article.margin-bottom--xl h2 a {
+main article.margin-bottom--xl h2,
+main article.margin-bottom--xl h2 a {
   color: var(--dailypb-navy);
   font-family: 'Raleway', sans-serif;
   font-size: 1.35rem;
@@ -189,12 +197,12 @@ article.margin-bottom--xl h2 a {
   transition: color 0.2s;
 }
 
-article.margin-bottom--xl h2 a:hover {
+main article.margin-bottom--xl h2 a:hover {
   color: var(--dailypb-blue);
 }
 
 /* Post metadata (date, reading time) — first child div after header */
-article.margin-bottom--xl header + div {
+main article.margin-bottom--xl header + div {
   display: flex;
   align-items: center;
   gap: 16px;
@@ -207,7 +215,7 @@ article.margin-bottom--xl header + div {
 }
 
 /* Post excerpt/content */
-article.margin-bottom--xl > .markdown {
+main article.margin-bottom--xl > .markdown {
   color: #4b5563;
   font-size: 0.95rem;
   line-height: 1.6;
@@ -215,7 +223,7 @@ article.margin-bottom--xl > .markdown {
 }
 
 /* Post footer with tags */
-article.margin-bottom--xl footer.row {
+main article.margin-bottom--xl footer.row {
   border-top: none;
   padding-top: 0;
   margin-top: 16px;
@@ -248,13 +256,13 @@ article.margin-bottom--xl footer.row {
 }
 
 /* Read more link */
-article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']) {
+main article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']) {
   color: var(--dailypb-blue);
   font-weight: 600;
   transition: color 0.2s;
 }
 
-article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']):hover {
+main article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']):hover {
   color: #2b94e2;
 }
 
@@ -379,16 +387,16 @@ article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']):hover 
 /* ── Responsive ────────────────────────────────────────────────────── */
 
 @media (max-width: 768px) {
-  article.margin-bottom--xl {
-    padding: 20px;
+  main article.margin-bottom--xl {
+    padding: 20px !important;
   }
 
-  article.margin-bottom--xl h2,
-  article.margin-bottom--xl h2 a {
+  main article.margin-bottom--xl h2,
+  main article.margin-bottom--xl h2 a {
     font-size: 1.15rem;
   }
 
-  article.margin-bottom--xl header + div {
+  main article.margin-bottom--xl header + div {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px !important;
