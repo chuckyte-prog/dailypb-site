@@ -68,6 +68,14 @@ const config = {
     ],
   ],
 
+  headTags: [
+    {
+      tagName: 'script',
+      attributes: {},
+      innerHTML: `(function(){try{localStorage.setItem('theme','light')}catch(e){}document.documentElement.setAttribute('data-theme','light')})();`,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
