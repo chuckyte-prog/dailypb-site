@@ -85,7 +85,6 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
         respectPrefersColorScheme: false,
-        storageKey: 'dailypb-color-mode',
       },
       navbar: {
         title: '',

@@ -52,6 +52,20 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--dailypb-navy);
 }
 
+/* ── Force light mode — override dark theme variables ──── */
+html[data-theme='dark'] {
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f5f6f7;
+  --ifm-font-color-base: #1c1e21;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #1c1e21;
+  --ifm-sidebar-background: #f5f6f7;
+  --ifm-toc-border-color: #eeeeee;
+  --ifm-code-background: rgba(0, 0, 0, 0.06);
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  color-scheme: light;
+}
+
 /* ── Global: hide "Edit this page" on all docs pages ──── */
 .theme-edit-this-page {
   display: none !important;
