@@ -1,0 +1,1 @@
+# Copy of How to Create a Team and Add Yourself to a Session

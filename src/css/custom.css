@@ -1,30 +1,147 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
 
-/* You can override the default Infima variables here. */
+/* ── Infima brand color overrides ─────────────────────── */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #4AA3E7;
+  --ifm-color-primary-dark: #2b94e2;
+  --ifm-color-primary-darker: #1c8cdf;
+  --ifm-color-primary-darkest: #1474b8;
+  --ifm-color-primary-light: #69b2eb;
+  --ifm-color-primary-lighter: #78baed;
+  --ifm-color-primary-lightest: #a6d2f4;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Roboto', sans-serif;
+  --ifm-heading-font-family: 'Raleway', sans-serif;
+  --dailypb-navy: #223960;
+  --dailypb-blue: #4AA3E7;
+  --dailypb-green: #17DB4E;
+  --dailypb-dark-green: #15803D;
+  --dailypb-orange: #F97300;
+  --dailypb-gray-bg: #F2F3F5;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #69b2eb;
+  --ifm-color-primary-dark: #4AA3E7;
+  --ifm-color-primary-darker: #2b94e2;
+  --ifm-color-primary-darkest: #1c8cdf;
+  --ifm-color-primary-light: #88c3ef;
+  --ifm-color-primary-lighter: #a6d2f4;
+  --ifm-color-primary-lightest: #c5e1f8;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* ── Global typography ─────────────────────────────────── */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* ── Navbar ────────────────────────────────────────────── */
+.navbar {
+  border-bottom: 2px solid var(--dailypb-blue);
+}
+
+.navbar__title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  color: var(--dailypb-navy);
+}
+
+/* ── Global: hide "Edit this page" on all docs pages ──── */
+.theme-edit-this-page {
+  display: none !important;
+}
+
+/* ── Help Center Home: full-width layout ──────────────── */
+
+/* Hide auto-rendered frontmatter title (fallback if hide_title frontmatter doesn't fire) */
+body.help-center-home-active article > header,
+body.help-center-home-active article > h1 {
+  display: none !important;
+}
+
+/* ── Help Center Home: hide sidebar ───────────────────── */
+
+/* Hide the sidebar element itself (both semantic + stable Docusaurus class) */
+body.help-center-home-active aside,
+body.help-center-home-active .theme-doc-sidebar-container {
+  display: none !important;
+}
+
+/* Make main content expand to full width */
+body.help-center-home-active main {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+body.help-center-home-active main > .container {
+  max-width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+body.help-center-home-active main > .container > .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  flex-wrap: nowrap !important;
+}
+
+body.help-center-home-active main > .container > .row > .col {
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Zero out article padding so component fills edge-to-edge */
+body.help-center-home-active article {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ── Help Center Home: hide chrome elements ───────────── */
+
+/* Hide Prev/Next navigation (issue 3) */
+body.help-center-home-active .pagination-nav {
+  display: none !important;
+}
+
+/* Hide Edit this page (issue 4) */
+body.help-center-home-active .theme-doc-footer {
+  display: none !important;
+}
+body.help-center-home-active .theme-last-updated {
+  display: none !important;
+}
+
+/* Hide breadcrumbs on homepage */
+body.help-center-home-active .theme-doc-breadcrumbs {
+  display: none !important;
+}
+
+/* ── Footer ────────────────────────────────────────────── */
+.footer {
+  background: var(--dailypb-navy) !important;
+}
+
+.footer__title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+.footer__link-item:hover {
+  color: var(--dailypb-blue) !important;
+}
+
+.footer__copyright {
+  color: rgba(255,255,255,0.4);
+  font-size: 0.8rem;
 }

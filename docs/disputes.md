@@ -1,0 +1,86 @@
+---
+title: "Disputes"
+description: "If a player disputes a charge through their credit card company, it triggers a formal process that impacts both DailyPB and the event host. Here's how i..."
+keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "pickleball refund", "session refund", "pickleball host", "event host", "DailyPB host features"]
+---
+
+# Disputes
+
+# Handling Disputes on DailyPB
+
+If a player disputes a charge through their credit card company, it triggers a formal process that impacts both DailyPB and the event host. Here's how it works and what you can expect.
+
+---
+
+## What is a Dispute?
+
+A dispute (also known as a chargeback) occurs when a player contacts their bank to contest a charge. This immediately pulls the full transaction amount out of DailyPB's platform account. In addition, Stripe charges a **non-refundable $15 dispute fee,** and then another $15 fee for disputing the dispute “dispute counter fee” (refundable if dispute is won).
+
+The good news? Disputes are **extremely rare** on DailyPB — our current dispute rate is just **0.05%**, which is considered **very low risk** by industry standards.
+
+---
+
+## What Happens When a Dispute is Created?
+
+When a dispute is initiated, the following steps take place automatically:
+
+1. Funds Are Reversed
+    
+    The payment originally sent to the host is reversed. This means the **full amount the player paid is deducted from the Stripe Express account**, including any fees.
+    
+2. A $15 dispute fee is charged to DailyPB
+3. The Player & the Host are Notified
+    
+    DailyPB will send an email to the player asking for clarification about the dispute — whether it was an error or if there’s additional context. The host and DailyPB are CC’d on this message. This is often the fastest way to resolve the issue.
+    
+4. Host is Notified Separately
+    
+    You’ll also receive an email from DailyPB with dispute details and what to expect next.
+    
+5. A Dispute Record Is Logged
+    
+    A “Dispute” transaction is added to the host finance dashboard so you can track it.
+    
+
+---
+
+## How Disputes Are Handled
+
+In most cases (100% of cases thus far) disputes are the result of a misunderstanding or mistake on the player’s part — such as forgetting they signed up for a session or not recognizing the account info on their credit card statement. Once the player responds regarding why this was an error, DailyPB will respond to Stripe with the proper documentation and evidence **on the host’s behalf**.
+
+Hosts don’t need to deal with Stripe directly — **DailyPB handles the entire process** and will keep Hosts in the loop.
+
+---
+
+## What Happens If the Dispute is Won?
+
+If the dispute is resolved in the Host’s favor:
+
+1. The full payment is returned to the DailyPB platform**.**
+2. You’ll be paid out manually, minus the $15 dispute fee. For example, if your original host payout was $40, you'll receive **$25**.
+3. Your dashboard will be updated to reflect:
+    - Removal of the dispute transaction
+    - A new “Dispute Fee” transaction of $15
+
+## What Happens If the Dispute is Lost?
+
+1. Host permanently loses the payment
+2. DailyPB loses the $15 dispute charge + another $15 “dispute counter fee”
+
+---
+
+## Summary
+
+| Scenario | Host Outcome | DailyPB Outcome | Player Outcome |
+| --- | --- | --- | --- |
+| Dispute is created | Full customer payment is pulled from Stripe (includes Stripe & DailyPB fee) | Charged $15 Dispute Fee | Full payment reversed |
+| Dispute is lost | Net loss of customer full payment | Eat the $15 fee + $15 dispute counter fee | Full payment reversed |
+| Dispute is won | Host is repaid original payout minus $15 dispute fee |  | Full payment repaid |
+
+---
+
+## Final Thoughts
+
+Disputes are rare and usually simple to resolve. We’re proactive in contacting the player, gathering details, and submitting evidence on your behalf. Our goal is to resolve the situation quickly and fairly — without taking up your time.
+
+If you have questions or need help with a specific dispute, contact us anytime at chuck@dailypb.com.

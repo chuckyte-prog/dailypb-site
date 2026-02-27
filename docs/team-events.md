@@ -1,0 +1,69 @@
+---
+title: "Team Events"
+description: "1. **Navigate to the Host Dashboard:** From the DailyPB homepage, click on **Host Dashboard** or go directly to [`dailypb.com/host`](http://dailypb.com/..."
+keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "pickleball team", "team signup", "DailyPB teams", "pickleball host", "event host", "DailyPB host features"]
+---
+
+# Team Events
+
+# How to Create a Team Event
+
+1. **Navigate to the Host Dashboard:** From the DailyPB homepage, click on **Host Dashboard** or go directly to [`dailypb.com/host`](http://dailypb.com/host).
+2. **Initiate a New Session:** Click the **Create Session** button in the top left menu.
+3. **Select Event Type:** In the "Basic Info" section, select **Team Event** from the "Type of session" dropdown menu.
+
+![image.png](/img/notion-help/team-events/image.png)
+
+**4. Enter Event Details:**
+
+- Provide a **Name of session**.
+- Select a **Venue**.
+- Set the **Start Date/Time** and **Duration**.
+1. **Configure Team Settings:** Under the "Signups" section:
+    - Ensure **Enable Signups** is checked.
+    - Enter the **Maximum number of teams** allowed.
+    - Enter the **Players per team** (e.g., 2 for doubles, 4 for MLP format).
+
+![image.png](/img/notion-help/team-events/image-1.png)
+
+1. **Set Payment Structure:** In the "Payments" section, enter the **Cost per team**.
+    - *Note: This fee is charged per team, not per individual player.*
+    - Select your preferred payment method (**Automatic** or **Manual**).
+2. **Finalize:** Click **Save & Close** to generate the event page. Players can then join or create teams via the "Join or Create Team" button on the public event listing.
+
+[https://youtu.be/436G4jvQEls](https://youtu.be/436G4jvQEls)
+
+# Free Agency
+
+## Overview
+
+Free Agency allows players without a team to list themselves as available for recruiters. Team captains can browse this list and add players directly to their roster.
+
+![image.png](/img/notion-help/team-events/image-2.png)
+
+## For Players: Joining the Free Agent List
+
+1. **Access the Teams Modal:** Open the "Teams" interface from the Session page.
+2. **Verify Status:** You must not be currently playing in the session. If you are, you must first click **Remove From Session**.
+3. **Become a Free Agent:** Click the **Become Free Agent** button.
+4. **Provide Information:** Fill out the **Additional Info** popup:
+    - **Cell Phone:** Provide a contact number for captains to reach you.
+    - **Public Message:** Write a "Free Agency Public Message" to describe your skill level, play style, or personality.
+5. **Confirm:** Click **Become Free Agent** to appear in the event's public list.
+
+## For Captains: Recruiting Free Agents
+
+1. **View Available Players:** Navigate to the **Free Agents** tab within the Teams modal.
+2. **Review Notes:** Read the public notes provided by players to find a good match for your team.
+3. **Check Profiles:** Click on a player's name or photo to view their full profile for more details.
+4. **Invite to Team:** Click **Add Teammate** on your team's card.
+5. **Select Player:** Find the player in the "Free Agents looking for a Team" list and click **Add**.
+    
+    ![image.png](/img/notion-help/team-events/image-3.png)
+    
+6. **Confirm Selection:** Review the player's rating and skill level, then click **Join Team**.
+7. **Activate Player:** The player will initially appear on your "Bench." Click the status dropdown next to their name and select **Playing** to move them into the active lineup.
+
+![image.png](/img/notion-help/team-events/image-4.png)
+
+[https://www.youtube.com/watch?v=Jlbb-25_3co](https://www.youtube.com/watch?v=Jlbb-25_3co)

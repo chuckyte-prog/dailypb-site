@@ -1,0 +1,108 @@
+---
+title: "DUPR Games"
+description: "DUPR Game Mode adds structure and accuracy to any session where you want to capture results for DUPR. It helps ensure every game meets DUPR’s rules, kee..."
+keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "DUPR pickleball", "DUPR rating", "pickleball rating"]
+---
+
+# DUPR Games
+
+# **DUPR Game Mode**
+
+DUPR Game Mode adds structure and accuracy to any session where you want to capture results for DUPR. It helps ensure every game meets DUPR’s rules, keeps track of player IDs, and gives you a ready-to-upload CSV after the session.
+
+---
+
+## **1. Required DUPR ID at Signup**
+
+When a player signs up for a DUPR session, they must enter their DUPR ID.
+
+- The system checks that the ID contains exactly six digits.
+- It does *not* confirm whether the ID itself is valid.
+- The ID is saved with the signup, and you (as the host) can edit it at any time if a player mistyped or gave incorrect information.
+
+This ensures every participant has a DUPR ID attached before any games are entered.
+
+---
+
+## **2. DUPR-Valid Game Rules Automatically Enforced**
+
+![Example of the warning on a round robin when it doesn't meet DUPR's validity rule ](/img/notion-help/dupr-games/image.png)
+
+Example of the warning on a round robin when it doesn't meet DUPR's validity rule 
+
+Whether you're running a round robin or simply entering game results, DUPR Game Mode checks each game against DUPR’s validity rules:
+
+- No ties allowed
+- At least one team must reach **6 points**
+
+If a game breaks these rules:
+
+- The system still saves the score
+- A warning appears so you know the game is not DUPR-valid
+
+This allows you to maintain accurate local records while still being alerted to anything that won’t qualify for DUPR.
+
+---
+
+## **3. Exporting DUPR-Ready Game Results (CSV)**
+
+After all games are completed, you can download a CSV that includes:
+
+- All games from the session
+- The correct players
+- Their submitted DUPR IDs
+- Scores and game data in DUPR’s required format
+
+This file is built specifically for DUPR’s bulk-upload system.
+
+### **One Required Change Before Uploading**
+
+DUPR requires a small modification to the exported CSV before accepting it.
+
+See section below for instructions for downloading the CSV from DailyPB, modifying it, and uploading it to DUPR 
+
+# How to Upload to DUPR
+
+## Get File Ready for Upload
+
+1. Download the CSV
+2. Open [Google Sheets](https://docs.google.com/spreadsheets/u/0/) and create a blank sheet.
+
+1. Click File → Import → Upload and upload the file that was just saved to your device. (or open the spreadsheet and copy/paste into a blank Google Sheet) 
+
+![image.png](/img/notion-help/dupr-games/image-1.png)
+
+1. If there is a dialog box with some options, just use the default and click “Import Data”
+
+![image.png](/img/notion-help/dupr-games/image-2.png)
+
+1. Highlight the first row by clicking “1” in the row area. That should highlight the first row which consists of all the column headers. 
+
+![image.png](/img/notion-help/dupr-games/image-3.png)
+
+1. Right-click and select “Delete row”
+
+![image.png](/img/notion-help/dupr-games/image-4.png)
+
+1. Click File → Download → Comma separated values (.csv)
+    
+    ![image.png](/img/notion-help/dupr-games/image-5.png)
+    
+2. That file will download to your device and you will be able to import that into the DUPR system
+
+## Upload to DUPR
+
+1. Log into the [DUPR](https://dashboard.dupr.com/) website.
+2. Click on Clubs from the main menu
+    
+    ![image.png](/img/notion-help/dupr-games/image-6.png)
+    
+3. Click on your Club
+(You must be an organizer of the Club to upload games.)
+4. Click “Matches”
+5. Click “Add Matches” and select “Import Matches via CSV”
+    
+    ![image.png](/img/notion-help/dupr-games/image-7.png)
+    
+6. Drag in or browse to select the CSV you saved from Google Sheets
+7. The next screen will let you know if there are any issues with your CSV file.

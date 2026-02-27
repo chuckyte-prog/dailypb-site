@@ -1,0 +1,34 @@
+---
+title: "Profile"
+description: "Besides being able to edit your First name, Last name, Phone number, Tagline, Bio, and Profile image, you’ll also notice a field for Email address."
+keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "DailyPB profile", "pickleball profile", "player profile", "pickleball email", "DailyPB email templates"]
+---
+
+# Profile
+
+# Personal Info
+
+Besides being able to edit your First name, Last name, Phone number, Tagline, Bio, and Profile image, you’ll also notice a field for Email address. 
+
+### Profile Image
+
+Profile image displays as a circle so the best dimensions for uploading are exact square images (ex: 100 X 100 pixels). 
+
+### Changing Email
+
+If you want to update your email, scroll down to the Account Settings section where you’ll see a link to update your email address.
+
+<aside>
+🚧 Note that if you have signed up or signed in with Google you cannot edit your email within DailyPB.
+
+</aside>
+
+### Banner Image
+
+To unlock the banner image, you first need to upload your profile picture. Once that is done, you can use either a background image or a color. 
+
+### Cell Phone Number
+
+Entering a cell phone number makes it easier for you to sign up for Sessions as a working cell number is required for critical Session information, notifying you of a waitlist bump, and other essential function. 
+
+Cell phone numbers are kept private for all Users except for Session/Event Hosts, and Admins of Interest Lists you’ve signed up for.
