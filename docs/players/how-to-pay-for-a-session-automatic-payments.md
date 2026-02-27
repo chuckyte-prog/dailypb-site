@@ -29,7 +29,7 @@ How to Pay if You are Not Logged In
 
 ![chrome_NU3pHNOcIP.gif](/img/notion-help/how-to-pay-for-a-session-automatic-payments/chrome-nu3phnocip.gif)
 
-If you are not seeing any buttons with the words “Pay” on them, your host might be using Manual Payments. [How to Pay for a Session with Manual Tracking](./how-to-pay-for-a-session-manual-payments)
+If you are not seeing any buttons with the words “Pay” on them, your host might be using Manual Payments. [How to Pay for a Session with Manual Tracking](/docs/players/how-to-pay-for-a-session-manual-payments)
 
 # FAQ
 

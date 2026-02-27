@@ -29,7 +29,7 @@ The number in parenthesis indicates the number of Signups. If there is no waitli
 <aside>
 😉
 
-Don’t worry, any [Reminders](./2-24-hr-reminders) (2 and 24 hour) as well as Pre and Post [Templates](./email-templates) that maybe attached to your Session will be automatically rescheduled.
+Don’t worry, any [Reminders](/docs/sessions/2-24-hr-reminders) (2 and 24 hour) as well as Pre and Post [Templates](/docs/sessions/email-templates) that maybe attached to your Session will be automatically rescheduled.
 
 </aside>
 

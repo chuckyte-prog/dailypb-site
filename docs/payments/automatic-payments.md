@@ -39,7 +39,7 @@ Note that the 24 hour refund policy is stated before each player signs up.
 
 Refunds are credited for the full amount the player paid, minus the Stripe and DailyPB fees.
 
-[More info on Refunds](./refunds)
+[More info on Refunds](/docs/payments/refunds)
 
 # Cost to Use Automatic Payments
 

@@ -223,7 +223,7 @@ Click on the Settings menu at the top of the screen and then the Series in which
 
 Click on the Series menu and you can click to download all recorded Games to DUPR. You must be a host to access this. 
 
-Once downloaded, follow these [instructions](./dupr-games) to prepare the file for DUPR and upload to DUPR. 
+Once downloaded, follow these [instructions](/docs/session-apps/dupr-games) to prepare the file for DUPR and upload to DUPR. 
 
 # FAQ
 

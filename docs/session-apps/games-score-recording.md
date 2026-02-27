@@ -50,7 +50,7 @@ Enabling this option allows players to manage the Boxes for the session. Whether
 <aside>
 ⚠️
 
-If you select “Require box to record a game” and don’t have “allow players to create and edit boxes” then no one will be able to record a Game until a Host creates at least one Box. When this happens, the 24 hour [Reminder](./2-24-hr-reminders) email to Hosts will include this warning.
+If you select “Require box to record a game” and don’t have “allow players to create and edit boxes” then no one will be able to record a Game until a Host creates at least one Box. When this happens, the 24 hour [Reminder](/docs/sessions/2-24-hr-reminders) email to Hosts will include this warning.
 
 </aside>
 
@@ -217,4 +217,4 @@ Note the Game will still appear but will be greyed-out to signify it has been de
 
 Only Hosts have access to the Export to DUPR button on the Game Scores Recording page. 
 
-Clicking this button will download a spreadsheet (CSV format) to your device. However you will need to make one small change to the CSV file before uploading to the DUPR website. Here are the [instructions for DUPR Uploading.](./dupr-games)
+Clicking this button will download a spreadsheet (CSV format) to your device. However you will need to make one small change to the CSV file before uploading to the DUPR website. Here are the [instructions for DUPR Uploading.](/docs/session-apps/dupr-games)

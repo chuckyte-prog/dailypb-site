@@ -105,9 +105,9 @@ const config = {
             title: 'Help Center',
             items: [
               { label: 'Browse All Topics', to: '/docs/' },
-              { label: 'Payments', to: '/docs/automatic-payments' },
-              { label: 'Sessions', to: '/docs/creating-recurring-events' },
-              { label: 'Session Apps', to: '/docs/flex-play' },
+              { label: 'Payments', to: '/docs/payments/automatic-payments' },
+              { label: 'Sessions', to: '/docs/sessions/creating-recurring-events' },
+              { label: 'Session Apps', to: '/docs/session-apps/flex-play' },
             ],
           },
           {

@@ -16,7 +16,7 @@ This feature allows **Session/Event Hosts as well as the Player themselves** to 
 
 - Correcting a typo in someone’s name or email
 - Adding a phone number so a player can get notified of changes
-- Updating skill level or DUPR rating to sort [Roster](./roster-of-signups) more effectively
+- Updating skill level or DUPR rating to sort [Roster](/docs/signups/roster-of-signups) more effectively
 
 <aside>
 🚧

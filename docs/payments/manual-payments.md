@@ -101,4 +101,4 @@ Manual Payments offer a flexible, cost-effective way to collect fees directly fr
 
 **Also See**
 
-[How to Add Alternative Payment Methods to an Event](./how-to-add-alternative-payment-methods-to-an-event)
+[How to Add Alternative Payment Methods to an Event](/docs/payments/how-to-add-alternative-payment-methods-to-an-event)

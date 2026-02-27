@@ -83,14 +83,14 @@ When a host (or player) manually moves someone 👇🏻 to the Waitlist:
 When a host bumps someone up ☝🏻 from the Waitlist to Attending manually 
 
 - The player will receive an email informing them that a spot opened up and they are next up on the waitlist. It will ask them to confirm by paying (if needed) or cancel if they cannot attend.
-- If the Session uses [Auto Payments](./automatic-payments) and there is a payment due, the player will also receive a text message
-- If the host is using [Manual Payments](./manual-payments), then a DailyPB fee will be accrued.  (This is reversed if the player cancels).
+- If the Session uses [Auto Payments](/docs/payments/automatic-payments) and there is a payment due, the player will also receive a text message
+- If the host is using [Manual Payments](/docs/payments/manual-payments), then a DailyPB fee will be accrued.  (This is reversed if the player cancels).
 
 ---
 
 # 🕰️Waitlist Reminder Emails (24 Hour Notice)
 
-When [**Reminders**](./2-24-hr-reminders) (this is on by default) are enabled for a Session, everyone on the Waitlist automatically receives an email **24 hours before the Session starts**. This message reminds them that they’re still on the waitlist and includes a **one-click link to remove themselves** if they know they can’t attend or have made other plans. This keeps your waitlist accurate and active.
+When [**Reminders**](/docs/sessions/2-24-hr-reminders) (this is on by default) are enabled for a Session, everyone on the Waitlist automatically receives an email **24 hours before the Session starts**. This message reminds them that they’re still on the waitlist and includes a **one-click link to remove themselves** if they know they can’t attend or have made other plans. This keeps your waitlist accurate and active.
 
 If a spot opens up, the system checks with the first person on the waitlist and **waits for them to cancel** before moving to the next player. Because Waitlisters were already prompted to opt-out when they can’t make it, confirmations happen faster and the Session fills more smoothly—cutting down on last-minute no-shows and stalled waitlists.
 

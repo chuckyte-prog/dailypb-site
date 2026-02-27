@@ -14,4 +14,4 @@ Flex Play gives you the freedom to create games on the fly without being locked 
 
 Traditional session formats require you to plan everything in advance—every matchup, every round, every player assignment. But pickleball sessions rarely go exactly as planned. Players arrive late, some need breaks, skill levels become apparent, and competitive balances shift. Flex Play adapts to reality instead of fighting against it.
 
-[Flex Play Overview](./flex-play-overview)
+[Flex Play Overview](/docs/session-apps/flex-play-overview)

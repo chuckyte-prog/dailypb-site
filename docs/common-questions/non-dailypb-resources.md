@@ -1,6 +1,6 @@
 ---
 title: "Non-DailyPB Resources"
-description: "Use this in conjunction with DailyPB Signup Templates to create a [liability waiver](./liability-waiver) for your..."
+description: "Use this in conjunction with DailyPB Signup Templates to create a [liability waiver](/docs/sessions/liability-waiver) for your..."
 keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "pickleball group", "DailyPB group settings", "pickleball host", "event host", "DailyPB host features", "pickleball liability waiver", "DailyPB waiver"]
 ---
 
@@ -8,7 +8,7 @@ keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", 
 
 ## Signature Service
 
-Use this in conjunction with DailyPB Signup Templates to create a [liability waiver](./liability-waiver) for your event
+Use this in conjunction with DailyPB Signup Templates to create a [liability waiver](/docs/sessions/liability-waiver) for your event
 
 We recommend [Waiverfile.com](http://Waiverfile.com)
 
@@ -24,7 +24,7 @@ It can be tough being a pickleball host/leader/coach/ambassador - but remember, 
 
 Most signups come from hosts sharing events through various groups and lists. DailyPB also offers paid ad spots for increased visibility.
 
-[DailyPB Interest Lists](./interest-lists) -  tool for hosts to manage and track users interested in their events.
+[DailyPB Interest Lists](/docs/marketing/interest-lists) -  tool for hosts to manage and track users interested in their events.
 
 [DailyPB Ad Spot](https://dailypb.com/promote_event) - show up at the top of DailyPB, reaching thousands of local players
 
