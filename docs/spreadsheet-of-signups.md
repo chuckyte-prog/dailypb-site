@@ -8,9 +8,7 @@ keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", 
 
 Download a spreadsheet (CSV format) of all Session Signups. 
 
-[Example spreadsheet](Spreadsheet%20of%20Signups/DailyPB_Test_Event_12-15-2024_Example.csv)
-
-Example spreadsheet
+[Example spreadsheet](/img/notion-help/spreadsheet-of-signups/dailypb-test-event-12-15-2024-example.csv)
 
 # Spreadsheet Format:
 

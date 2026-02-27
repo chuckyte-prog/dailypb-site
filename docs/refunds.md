@@ -1,6 +1,8 @@
 ---
 title: "Refunds"
-description: "Refunds only apply to Sessions using [Automatic Payments](./automatic-payments). For [Manual Payments](./manual-pa-keywords-pickleball-dailypb-pickleball-sessions-pickleball-events-pickleball-signup-pickleball-scheduling-open-play-pickleball-pickleball-payment-session-payment-dailypb-payments-pickleball-refund-session-refund-pickleball-host-event-host-dailypb-host-features-refunds-refunds-only-apply-to-sessions-using-automatic-paymentsautomatic-payments). For [Manual Payments](./manual-payments), the Host is responsible for issuing refunds through their preferred payment method.
+description: "Learn how to issue refunds for DailyPB pickleball sessions using Automatic Payments, including refunds for removed attendees and deleted sessions."
+keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball payment", "session payment", "DailyPB payments", "pickleball refund", "session refund"]
+---
 
 # General Info
 
