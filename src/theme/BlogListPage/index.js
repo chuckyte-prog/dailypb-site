@@ -49,15 +49,13 @@ function BlogListPageHero() {
 function BlogListPageContent(props) {
   const {metadata, items, sidebar} = props;
   return (
-    <>
+    <div className={styles.contentWrapper}>
       <BlogListPageHero />
-      <div className={styles.contentWrapper}>
-        <BlogLayout sidebar={sidebar}>
-          <BlogPostItems items={items} />
-          <BlogListPaginator metadata={metadata} />
-        </BlogLayout>
-      </div>
-    </>
+      <BlogLayout sidebar={sidebar}>
+        <BlogPostItems items={items} />
+        <BlogListPaginator metadata={metadata} />
+      </BlogLayout>
+    </div>
   );
 }
 
