@@ -1,0 +1,52 @@
+/* Hero Banner */
+.hero {
+  background: linear-gradient(135deg, #223960 0%, #1a2d4f 60%, #0f1d35 100%);
+  padding: 64px 24px 72px;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroInner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.heroTitle {
+  font-family: 'Raleway', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  color: #fff;
+  margin: 0 0 12px;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.heroSubtitle {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Content wrapper for consistent top padding */
+.contentWrapper {
+  padding-top: 32px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: 40px 24px 48px;
+  }
+
+  .heroTitle {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+  }
+
+  .heroSubtitle {
+    font-size: 0.95rem;
+  }
+}
