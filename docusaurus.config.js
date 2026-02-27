@@ -72,7 +72,7 @@ const config = {
     {
       tagName: 'script',
       attributes: {},
-      innerHTML: `(function(){try{localStorage.setItem('theme','light')}catch(e){}document.documentElement.setAttribute('data-theme','light')})();`,
+      innerHTML: `(function(){try{localStorage.setItem('dailypb-color-mode','light')}catch(e){}document.documentElement.setAttribute('data-theme','light')})();`,
     },
   ],
 
@@ -85,6 +85,7 @@ const config = {
         defaultMode: 'light',
         disableSwitch: true,
         respectPrefersColorScheme: false,
+        storageKey: 'dailypb-color-mode',
       },
       navbar: {
         title: '',
