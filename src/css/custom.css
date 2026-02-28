@@ -162,247 +162,230 @@ body.help-center-home-active .theme-doc-breadcrumbs {
 
 /* ── BLOG STYLING ─────────────────────────────────────────────────────── */
 
-/* Ensure the blog list hero has no top gap */
-.blog-list-page .theme-layout-main > *:first-child,
-.blog-wrapper .theme-layout-main > *:first-child {
-  margin-top: 0 !important;
+/* ── 1. Hero gap fix ───────────────────────────────────────────────────
+   The .theme-layout-main flex container sometimes gets a top margin from
+   the AnnouncementBar placeholder or from Infima. Zero it out on blog pages. */
+.blog-wrapper .theme-layout-main,
+.blog-list-page .theme-layout-main {
+  padding-top: 0 !important;
 }
 
-/* Blog post cards */
-.blog-wrapper article.margin-bottom--xl,
-main article.margin-bottom--xl {
-  border-left: 4px solid var(--dailypb-blue) !important;
+/* ── 2. Post cards ─────────────────────────────────────────────────────
+   article.margin-bottom--xl is the only class on the card container.
+   Confirmed from BlogPostItem/index.js: useContainerClassName() returns
+   'margin-bottom--xl' in list view. */
+.blog-list-page article.margin-bottom--xl {
   background: #ffffff !important;
-  border-radius: 8px !important;
+  border: 1px solid #e5e7eb !important;
+  border-left: 4px solid #3b96d9 !important;
+  border-radius: 12px !important;
   padding: 28px !important;
-  box-shadow: 0 2px 8px rgba(34, 57, 96, 0.08) !important;
-  transition: box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 1px 6px rgba(34, 57, 96, 0.07) !important;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.blog-wrapper article.margin-bottom--xl:hover,
-main article.margin-bottom--xl:hover {
-  box-shadow: 0 4px 16px rgba(34, 57, 96, 0.12) !important;
+.blog-list-page article.margin-bottom--xl:hover {
+  box-shadow: 0 4px 16px rgba(34, 57, 96, 0.13) !important;
   transform: translateY(-2px);
 }
 
-/* Post title styling */
-main article.margin-bottom--xl h2,
-main article.margin-bottom--xl h2 a {
+/* Post title */
+.blog-list-page article.margin-bottom--xl h2,
+.blog-list-page article.margin-bottom--xl h2 a {
   color: var(--dailypb-navy);
   font-family: 'Raleway', sans-serif;
   font-size: 1.35rem;
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   transition: color 0.2s;
 }
 
-main article.margin-bottom--xl h2 a:hover {
-  color: var(--dailypb-blue);
+.blog-list-page article.margin-bottom--xl h2 a:hover {
+  color: #3b96d9;
+  text-decoration: none;
 }
 
-/* Post metadata (date, reading time) — first child div after header */
-main article.margin-bottom--xl header + div {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  font-size: 0.9rem;
+/* Post metadata row (date · read time) — BlogPostItemHeaderInfo wraps in a div */
+.blog-list-page article.margin-bottom--xl header + div {
+  font-size: 0.875rem;
   color: #6b7280;
-  margin-bottom: 16px !important;
-  flex-wrap: wrap;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 12px !important;
 }
 
-/* Post excerpt/content */
-main article.margin-bottom--xl > .markdown {
+/* Post excerpt */
+.blog-list-page article.margin-bottom--xl .markdown {
   color: #4b5563;
   font-size: 0.95rem;
-  line-height: 1.6;
-  margin-bottom: 16px;
+  line-height: 1.65;
 }
 
-/* Post footer with tags */
-main article.margin-bottom--xl footer.row {
-  border-top: none;
-  padding-top: 0;
+/* Post footer row (tags + read more) */
+.blog-list-page article.margin-bottom--xl footer.row {
   margin-top: 16px;
+  align-items: center;
 }
 
-/* Tags styling */
-.blog-list-page .tags_jXut {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
+/* ── 3. Author block in card footer ────────────────────────────────────
+   BlogPostItemHeaderAuthors renders .avatar.margin-bottom--sm inside header.
+   We keep it in header but style it compactly — no card background. */
+.blog-list-page article.margin-bottom--xl .avatar {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 0 !important;
+  margin-top: 4px;
 }
 
-.blog-list-page .tag_QGVx,
-.blog-list-page .tag_zVej,
-.blog-list-page .tagRegular_sFm0 {
-  background: #dbeafe;
-  color: var(--dailypb-navy);
-  padding: 4px 12px;
-  border-radius: 16px;
-  font-size: 0.8rem;
-  font-weight: 500;
-  text-decoration: none;
-  transition: background 0.2s;
+.blog-list-page article.margin-bottom--xl .avatar__photo-link {
+  margin-right: 10px;
 }
 
-.blog-list-page .tag_QGVx:hover,
-.blog-list-page .tag_zVej:hover,
-.blog-list-page .tagRegular_sFm0:hover {
-  background: #bfdbfe;
-}
-
-/* Read more link */
-main article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']) {
-  color: var(--dailypb-blue);
+.blog-list-page article.margin-bottom--xl .avatar__name {
+  font-size: 0.9rem;
   font-weight: 600;
+  color: var(--dailypb-navy);
+}
+
+.blog-list-page article.margin-bottom--xl .avatar__name a {
+  color: var(--dailypb-navy);
+  text-decoration: none;
+}
+
+.blog-list-page article.margin-bottom--xl .avatar__name a:hover {
+  color: #3b96d9;
+}
+
+.blog-list-page article.margin-bottom--xl .avatar__intro small {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+/* ── 4. Tags ───────────────────────────────────────────────────────────
+   Tag component applies: styles.tag + (styles.tagRegular | styles.tagWithCount)
+   The stable selector is [rel="tag"] which Tag always renders. */
+.blog-list-page article [rel="tag"] {
+  background: #dbeafe !important;
+  color: #1a2d4f !important;
+  border: 1px solid #bfdbfe !important;
+  border-radius: 20px !important;
+  padding: 3px 12px !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  transition: background 0.15s ease, border-color 0.15s ease !important;
+  /* Remove the flag/ribbon shape from tagWithCount */
+  clip-path: none !important;
+}
+
+.blog-list-page article [rel="tag"]:hover {
+  background: #bfdbfe !important;
+  border-color: #93c5fd !important;
+  text-decoration: none !important;
+}
+
+/* Hide the count bubble inside tags (the arrow-flag shape) */
+.blog-list-page article [rel="tag"]::before,
+.blog-list-page article [rel="tag"]::after {
+  display: none !important;
+}
+
+/* ── 5. Read more link ─────────────────────────────────────────────── */
+.blog-list-page article footer a:not([rel="tag"]) {
+  color: #3b96d9;
+  font-weight: 600;
+  font-size: 0.9rem;
   transition: color 0.2s;
 }
 
-main article.margin-bottom--xl footer a[href*='/blog/']:not([href*='authors']):hover {
+.blog-list-page article footer a:not([rel="tag"]):hover {
   color: #2b94e2;
 }
 
-/* ── Blog Sidebar ──────────────────────────────────────────────────── */
-
-/* Sidebar wrapper — card styling */
+/* ── 6. Sidebar ────────────────────────────────────────────────────────
+   Stable structure: aside.col.col--3 > nav (the nav gets the CSS module class).
+   Target the nav directly for card styling. */
 .blog-list-page aside.col--3 {
   margin-top: 0 !important;
 }
 
-.blog-list-page .sidebar_re4s {
-  background: #f8f9fb;
+.blog-list-page aside.col--3 > nav {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
   border-radius: 12px;
-  padding: 24px;
-  box-shadow: 0 1px 4px rgba(34, 57, 96, 0.07);
-  border: none;
+  padding: 20px;
+  box-shadow: 0 1px 6px rgba(34, 57, 96, 0.07);
 }
 
-.blog-list-page .sidebarItemTitle_pO2u {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--dailypb-navy);
-  margin-bottom: 16px;
-  margin-top: 0;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.blog-list-page .sidebarItem__DBe {
-  margin-bottom: 8px;
-}
-
-.blog-list-page .sidebarItemLink_mo7H {
-  color: #374151;
-  text-decoration: none;
-  font-size: 0.9rem;
-  transition: color 0.2s, background 0.2s;
-  padding: 4px 8px;
-  border-radius: 4px;
-  display: block;
-}
-
-.blog-list-page .sidebarItemLink_mo7H:hover {
-  color: var(--dailypb-blue);
-  background: rgba(74, 163, 231, 0.08);
-}
-
-/* Year group heading in sidebar */
-.blog-list-page .yearGroupHeading_rMGB {
+/* "All Posts" / sidebar title — sidebarItemTitle is the first div in nav */
+.blog-list-page aside.col--3 > nav > div:first-child {
   font-family: 'Raleway', sans-serif;
   font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--dailypb-navy);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  margin-bottom: 12px !important;
+}
+
+/* Sidebar list items — ul > li > a */
+.blog-list-page aside.col--3 > nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+.blog-list-page aside.col--3 > nav ul li {
+  margin-top: 2px !important;
+}
+
+.blog-list-page aside.col--3 > nav ul li a {
+  color: #374151;
+  font-size: 0.875rem;
+  text-decoration: none;
+  display: block;
+  padding: 5px 8px;
+  border-radius: 6px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.blog-list-page aside.col--3 > nav ul li a:hover {
+  background: #eff6ff;
+  color: #3b96d9;
+  text-decoration: none;
+}
+
+/* Active sidebar item */
+.blog-list-page aside.col--3 > nav ul li a[aria-current] {
+  color: #3b96d9;
+  font-weight: 600;
+}
+
+/* Year group heading inside sidebar */
+.blog-list-page aside.col--3 > nav h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.7rem;
   text-transform: uppercase;
   color: #9ca3af;
-  letter-spacing: 0.05em;
-  margin-top: 12px;
-  margin-bottom: 8px;
+  letter-spacing: 0.06em;
   font-weight: 700;
-}
-
-.blog-list-page .yearGroupHeading_rMGB:first-of-type {
-  margin-top: 0;
-}
-
-/* ── Blog Author Block ─────────────────────────────────────────────── */
-
-.blog-list-page .avatar {
-  background: #f8f9fb;
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 0 !important;
-}
-
-.blog-list-page .avatar__photo {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-
-.blog-list-page .avatar__intro {
-  margin-bottom: 0;
-}
-
-.blog-list-page .avatar__name {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--dailypb-navy);
-  margin-bottom: 4px;
-}
-
-.blog-list-page .avatar__name a {
-  color: var(--dailypb-navy);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.blog-list-page .avatar__name a:hover {
-  color: var(--dailypb-blue);
-}
-
-.blog-list-page .authorTitle_nd0D {
-  font-size: 0.85rem;
-  color: #6b7280;
-}
-
-/* Author social links */
-.blog-list-page .authorSocials_rSDt {
-  margin-top: 8px;
-}
-
-.blog-list-page .authorSocialLink_owbf {
-  color: #6b7280;
-  transition: color 0.2s;
-  display: inline-flex;
-  margin-right: 8px;
-}
-
-.blog-list-page .authorSocialLink_owbf:hover {
-  color: var(--dailypb-blue);
+  margin: 12px 0 6px;
 }
 
 /* ── Responsive ────────────────────────────────────────────────────── */
+@media (max-width: 996px) {
+  .blog-list-page aside.col--3 > nav {
+    margin-top: 32px;
+  }
+}
 
 @media (max-width: 768px) {
-  main article.margin-bottom--xl {
+  .blog-list-page article.margin-bottom--xl {
     padding: 20px !important;
   }
 
-  main article.margin-bottom--xl h2,
-  main article.margin-bottom--xl h2 a {
-    font-size: 1.15rem;
-  }
-
-  main article.margin-bottom--xl header + div {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px !important;
-  }
-
-  .blog-list-page .sidebar_re4s {
-    margin-top: 32px;
+  .blog-list-page article.margin-bottom--xl h2,
+  .blog-list-page article.margin-bottom--xl h2 a {
+    font-size: 1.1rem;
   }
 }

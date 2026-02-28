@@ -3,6 +3,8 @@
   background: linear-gradient(135deg, #223960 0%, #1a2d4f 60%, #0f1d35 100%);
   padding: 64px 24px 72px;
   margin-top: 0;
+  /* Establish block formatting context to prevent margin collapse */
+  overflow: hidden;
 }
 
 .heroInner {
