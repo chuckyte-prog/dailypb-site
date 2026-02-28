@@ -163,11 +163,16 @@ body.help-center-home-active .theme-doc-breadcrumbs {
 /* ── BLOG STYLING ─────────────────────────────────────────────────────── */
 
 /* ── 1. Hero gap fix ───────────────────────────────────────────────────
-   The .theme-layout-main flex container sometimes gets a top margin from
-   the AnnouncementBar placeholder or from Infima. Zero it out on blog pages. */
-.blog-wrapper .theme-layout-main,
-.blog-list-page .theme-layout-main {
+   HtmlClassNameProvider adds blog-wrapper and blog-list-page to <html>.
+   Target the layout main container and its first child to eliminate any gap. */
+html.blog-wrapper .theme-layout-main,
+html.blog-list-page .theme-layout-main {
   padding-top: 0 !important;
+}
+
+html.blog-wrapper .theme-layout-main > *:first-child,
+html.blog-list-page .theme-layout-main > *:first-child {
+  margin-top: 0 !important;
 }
 
 /* ── 2. Post cards ─────────────────────────────────────────────────────
