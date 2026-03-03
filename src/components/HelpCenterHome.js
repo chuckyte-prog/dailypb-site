@@ -208,7 +208,7 @@ export default function HelpCenterHome() {
       let el = article.parentElement;
       while (el) {
         stripped.push({ el, cssText: el.style.cssText });
-        el.style.cssText += ';max-width:none!important;padding-left:0!important;padding-right:0!important;margin-left:0!important;margin-right:0!important;width:100%!important;overflow:visible!important;';
+        el.style.cssText += ';max-width:none!important;padding:0!important;margin:0!important;width:100%!important;overflow:visible!important;';
         if (el.tagName === 'MAIN') break;
         el = el.parentElement;
       }
