@@ -377,6 +377,25 @@ html.blog-list-page .theme-layout-main > *:first-child {
   margin: 12px 0 6px;
 }
 
+/* ── 7. Blog post image captions ───────────────────────────────────────
+   Tightens spacing between an image and its following italic caption.
+   Handles both markdown images (wrapped in <p>) and inline <img> tags. */
+
+/* Remove bottom margin from image paragraph (markdown images) */
+.markdown p:has(> img:only-child) {
+  margin-bottom: 0 !important;
+}
+
+/* Caption paragraph directly following a markdown image <p> */
+.markdown p:has(> img:only-child) + p:has(> em:only-child) {
+  margin-top: 4px !important;
+}
+
+/* Caption paragraph directly following an inline <img> tag */
+.markdown img + p:has(> em:only-child) {
+  margin-top: 4px !important;
+}
+
 /* ── Responsive ────────────────────────────────────────────────────── */
 @media (max-width: 996px) {
   .blog-list-page aside.col--3 > nav {

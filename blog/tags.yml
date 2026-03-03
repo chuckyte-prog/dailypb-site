@@ -1,19 +1,49 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+tournaments:
+  label: Tournaments
+  permalink: /tournaments
+  description: Pickleball tournament organization and management.
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+hosting:
+  label: Hosting
+  permalink: /hosting
+  description: Tips and guides for pickleball session hosts.
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+events:
+  label: Events
+  permalink: /events
+  description: Pickleball events and session management.
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+formats:
+  label: Formats
+  permalink: /formats
+  description: Pickleball game and tournament formats.
+
+round-robin:
+  label: Round Robin
+  permalink: /round-robin
+  description: Round robin format guides and tips.
+
+payments:
+  label: Payments
+  permalink: /payments
+  description: Collecting payments for pickleball sessions and events.
+
+dailypb:
+  label: DailyPB
+  permalink: /dailypb
+  description: News and updates from DailyPB.
+
+story:
+  label: Story
+  permalink: /story
+  description: The story behind DailyPB.
+
+platform:
+  label: Platform
+  permalink: /platform
+  description: DailyPB platform features and capabilities.
+
+community:
+  label: Community
+  permalink: /community
+  description: Pickleball community and culture.
