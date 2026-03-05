@@ -2,7 +2,7 @@
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
 // There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// See: https://docusaurus.io/help/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
@@ -14,13 +14,13 @@ const config = {
   tagline: 'Pickleball session management made easy',
   favicon: 'img/favicon.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  // Future flags, see https://docusaurus.io/help/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
 
   // Set the production url of your site here
-  url: 'https://dailypb-site.vercel.app',
+  url: 'https://www.dailypb.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -47,8 +47,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          routeBasePath: 'help',
         },
         blog: {
           showReadingTime: true,
@@ -95,7 +94,7 @@ const config = {
         },
         items: [
           {
-            to: '/docs/',
+            to: '/help/',
             position: 'left',
             label: 'Help Center',
           },
@@ -113,10 +112,10 @@ const config = {
           {
             title: 'Help Center',
             items: [
-              { label: 'Browse All Topics', to: '/docs/' },
-              { label: 'Payments', to: '/docs/payments/automatic-payments' },
-              { label: 'Sessions', to: '/docs/sessions/creating-recurring-events' },
-              { label: 'Session Apps', to: '/docs/session-apps/flex-play' },
+              { label: 'Browse All Topics', to: '/help/' },
+              { label: 'Payments', to: '/help/payments/automatic-payments' },
+              { label: 'Sessions', to: '/help/sessions/creating-recurring-events' },
+              { label: 'Session Apps', to: '/help/session-apps/flex-play' },
             ],
           },
           {
