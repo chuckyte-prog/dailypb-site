@@ -9,7 +9,7 @@ keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", 
 <aside>
 🛡️
 
-Both [Manual](/docs/payments/manual-payments) and [Automatic Payments](/docs/payments/automatic-payments) enable all [Pro Features](/docs/hosts/pro-features-for-hosts) for sessions with signups and fees.
+Both [Manual](/help/payments/manual-payments) and [Automatic Payments](/help/payments/automatic-payments) enable all [Pro Features](/help/hosts/pro-features-for-hosts) for sessions with signups and fees.
 
 </aside>
 

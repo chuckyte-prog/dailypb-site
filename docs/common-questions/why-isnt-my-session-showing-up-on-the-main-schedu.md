@@ -33,4 +33,4 @@ Any Sessions with Venues that are outside of the radius will not be shown.
 
 ![search radius.png](/img/notion-help/why-isnt-my-session-showing-up-on-the-main-schedu/search-radius.png)
 
-More info on [Visibility](/docs/sessions/privacy-settings)
+More info on [Visibility](/help/sessions/privacy-settings)

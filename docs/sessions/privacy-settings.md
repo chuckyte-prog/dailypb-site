@@ -37,4 +37,4 @@ Note that anyone with a direct link or Venue Admins can view Private Sessions.
 4. Click on the appropriate option.
 5. Click “Save Changes” to save your settings
 
-If you have more questions about why your Session may not be showing up, check out this [page](/docs/common-questions/why-isnt-my-session-showing-up-on-the-main-schedu)
+If you have more questions about why your Session may not be showing up, check out this [page](/help/common-questions/why-isnt-my-session-showing-up-on-the-main-schedu)

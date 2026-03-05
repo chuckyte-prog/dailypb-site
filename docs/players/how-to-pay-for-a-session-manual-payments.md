@@ -21,7 +21,7 @@ On the Session details screen you will see a section titled â€œPayment Methodsâ€
 
 ![image.png](/img/notion-help/how-to-pay-for-a-session-manual-payments/image.png)
 
-If you are not seeing the same screens and info as described here, it is possible the Session is either using [Automatic Payments](/docs/players/how-to-pay-for-a-session-automatic-payments) or there is no fee. 
+If you are not seeing the same screens and info as described here, it is possible the Session is either using [Automatic Payments](/help/players/how-to-pay-for-a-session-automatic-payments) or there is no fee. 
 
 # FAQ
 

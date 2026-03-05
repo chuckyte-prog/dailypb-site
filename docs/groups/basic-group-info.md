@@ -1,12 +1,12 @@
 ---
 title: "Basic Group Info"
-description: "[Group Settings](/docs/groups/group-settings)"
+description: "[Group Settings](/help/groups/group-settings)"
 keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", "pickleball signup", "pickleball scheduling", "open play pickleball", "pickleball group", "DailyPB group settings"]
 ---
 
 # Basic Group Info
 
-[Group Settings](/docs/groups/group-settings)
+[Group Settings](/help/groups/group-settings)
 
 ![unnamed (1).png](/img/notion-help/basic-group-info/unnamed-1.png)
 
@@ -60,7 +60,7 @@ Players can request to join, receive automated welcome emails, and immediately s
 
 1. Login and go to your [Host Dashboard](https://dailypb.com/host).
 2. Click **Groups** and select **+ New Group.**
-3. Add your group’s image, short description, and privacy settings. View all [Settings.](/docs/groups/group-settings)
+3. Add your group’s image, short description, and privacy settings. View all [Settings.](/help/groups/group-settings)
 4. Connect your Group to existing Sessions - they will magically appear on your Group Calendar.
 5. Share your custom link (example: `dailypb.com/group/yourname`) with your community.
 

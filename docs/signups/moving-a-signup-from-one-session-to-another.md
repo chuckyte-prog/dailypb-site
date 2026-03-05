@@ -9,7 +9,7 @@ keywords: ["pickleball", "DailyPB", "pickleball sessions", "pickleball events", 
 <aside>
 💡
 
-If you need to cancel and reschedule a Session, consider simply [changing the date of the Session.](/docs/sessions/changing-the-time-or-date-of-a-session)  This way, you can keep all your signups intact.
+If you need to cancel and reschedule a Session, consider simply [changing the date of the Session.](/help/sessions/changing-the-time-or-date-of-a-session)  This way, you can keep all your signups intact.
 
 </aside>
 

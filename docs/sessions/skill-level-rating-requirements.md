@@ -10,7 +10,7 @@ Hosts can require players to provide their Skill Level or Rating during signup, 
 
 ![image.png](/img/notion-help/skill-level-rating-requirements/image.png)
 
-If enabled this information will be required for all Signups and is available to Hosts on the Attendees Popup, [Printable Roster,](/docs/signups/roster-of-signups) downloadable spreadsheet (CSV), and Round Robin tool.
+If enabled this information will be required for all Signups and is available to Hosts on the Attendees Popup, [Printable Roster,](/help/signups/roster-of-signups) downloadable spreadsheet (CSV), and Round Robin tool.
 
 # How to Enable Skill Requirements on an Event
 
